@@ -1,0 +1,7 @@
+body{
+    background-image: url("..assets/images/topography.svg"),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+}
+button{
+    margin-right: 200px;
+}
