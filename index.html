@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="p-6">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="output.css" />
   </head>
 
-  <body class="dark:bg-slate-700">
+  <body class="dark:bg-slate-700 m-12">
     <!--Menu Button-->
     <div class="lg:hidden">
       <div class="flex justify-start lg:hidden">
@@ -17,19 +17,19 @@
         </button>
       </div>
       <div class="flex flex-wrap mt-5 justify-center hidden transition-opacity duration-300" id="menu">
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
+        <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
           TACOS
         </button>
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
+        <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
           BEERS
         </button>
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
+        <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
           WINES
         </button>
-        <button class="bg-yellow-400 shadow-grow -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
+        <button class="bg-yellow-400 shadow-grow -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
           MUSIC
         </button>
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-base md:mr-3 lg:mr-5 xl:mr-6 font-grow font-bold">
+        <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm font-grow font-bold">
           RESERVATIONS
         </button>
       </div>
@@ -45,7 +45,7 @@
       >
         <div class="relative">
           <header class="hero">
-            <h1 class="font-bold text-base mb-3 bg-yellow-400">Terry's Taco Joint</h1>
+            <h1 class="font-bold lg:text-4xl text-md  mb-3 bg-yellow-400">Terry's Taco Joint</h1>
             <p class="font-bold text-base bg-yellow-400">Pretty Good Tacos!</p>
           </header>
         </div>
@@ -54,41 +54,42 @@
       <div
         class="bg-yellow-400 flex flex-col items-center justify-center col-span-3 sm:col-span-1 md:col-span-1 mb-3 mt-3 sm:mt-0 md:mt-0 p-5 -md"
       >
-        <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-8xl font-bold">$1.99</h1>
-        <p class="lg:text-lg">Tacos</p>
+        <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-bold">$1.99</h1>
+        <p -4xl mt-52="lg:text-lg">Tacos</p>
       </div>
       <div
         class="bg-yellow-400 flex items-center justify-center flex-col col-span-3 sm:col-span-1 md:col-span-1 p-5 -md"
       >
-        <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-8xl font-bold">$3.99</h1>
+        <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-bold">$3.99</h1>
         <p class="lg:text-lg">Kombuchka</p>
       </div>
     </div>
 
-    <div class="">
-      <div class="flex flex-wrap mt-5 justify-center">
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
-          TACOS
-        </button>
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
-          BEERS
-        </button>
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
-          WINES
-        </button>
-        <button class="bg-yellow-400 shadow-grow -md w-56 flex-grow mr-3 h-12 text-md mb-3 md:mr-3 lg:mr-5 xl:mr-6 font-bold">
-          MUSIC
-        </button>
-        <button class="bg-yellow-400 shadow-md -md w-56 flex-grow mr-3 h-12 text-base md:mr-3 lg:mr-5 xl:mr-6 font-grow font-bold">
-          RESERVATIONS
-        </button>
-      </div>
+
+      <div class="menu mt-5 gap-3 w-full hidden lg:block">
+        <ul>
+          <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
+            TACOS
+          </button>
+          <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
+            BEERS
+          </button>
+          <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
+            WINES
+          </button>
+          <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm mb-3 font-bold">
+            MUSIC
+          </button>
+          <button class="bg-yellow-400 shadow-md -md w-auto mr-3 h-12 text-md text-sm font-bold">
+            RESERVATIONS
+          </button>
+        </ul>
     </div>
 
     <!--Utilities-->
-    <div class="flex flex-row flex-wrap mt-3">
+    <div class="features mt-3">
       <div
-        class="flex flex-col flex-grow mr-3 bg-slate-200 -md p-8 mb-3 sm:w-48 md:w-72"
+        class="feature flex flex-col mr-3 bg-slate-200 -md p-8 mb-3 size-auto"
       >
         <img src="assets/taco.svg" alt="taco img" class="w-10 mx-auto" />
         <h1 class="mx-auto text-xl">Tacos</h1>
@@ -97,7 +98,7 @@
         </p>
       </div>
       <div
-        class="flex flex-col mr-3 flex-grow bg-slate-200 -md p-8 mb-3 sm:w-48 md:w-72"
+        class="feature flex flex-col mr-3 bg-slate-200 -md p-8 mb-3 size-auto"
       >
         <img src="assets/beer.svg" alt="beer img" class="w-10 mx-auto" />
         <h1 class="mx-auto text-xl">Beers</h1>
@@ -106,7 +107,7 @@
         </p>
       </div>
       <div
-        class="flex flex-col mr-3 flex-grow bg-slate-200 -md p-8 mb-3 sm:w-48 md:w-72"
+        class="feature flex flex-col mr-3 bg-slate-200 -md p-8 mb-3 size-auto"
       >
         <img src="assets/wine.svg" alt="wine img" class="w-10 mx-auto" />
         <h1 class="mx-auto text-xl">Wines</h1>
@@ -115,7 +116,7 @@
         </p>
       </div>
       <div
-        class="flex flex-col mr-3 flex-grow bg-slate-200 -md p-8 mb-3 sm:w-48 md:w-72"
+        class="feature flex flex-col mr-3 bg-slate-200 -md p-8 mb-3 size-auto"
       >
         <img src="assets/music.svg" alt="music img" class="w-10 mx-auto" />
         <h1 class="mx-auto text-xl">Music</h1>
@@ -125,7 +126,7 @@
       </div>
     </div>
     <!--Featured Taco-->
-    <div class="flex flex-col sm:flex-row md:flex-row bg-slate-200 mr-3">
+    <div class=" h-80 flex flex-col sm:flex-row sm:items-center bg-slate-200 mr-3">
       <img
         src="assets/tacoImg.png"
         alt="Image of a Taco"
@@ -146,42 +147,40 @@
         </button>
       </div>
     </div>
-    <div class="w-full mr-10 gallery">
-      <h2 class="text-4xl font-bold mb-4 text-center">
+    <div class="w-full mt-5 mr-10 gallery">
+      <h2 class="text-2xl font-bold mb-4 text-center">
         Instant Grams
       </h2>
-      <div class="flex justify-center sm:justify-between flex-row gap-3 flex-wrap">
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=1" class="h-full w-full rounded-lg">
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=1" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=2" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=3" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=4" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=5" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=6" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=7" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=8" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=9" class="h-full w-full rounded-lg">
+          </div>
+          <div class="">
+            <img src="https://source.unsplash.com/random?sig=10" class="h-full w-full rounded-lg">
         </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=2" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=3" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=4" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=5" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=6" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=7" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=8" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=9" class="h-full w-full rounded-lg">
-        </div>
-        <div class="size-64 sm:size-48 lg:size-56">
-          <img src="https://source.unsplash.com/random?sig=10" class="h-full w-full rounded-lg">
-        </div>
-      </div>
       </div>
     <script src="src/app.js"></script>
   </body>

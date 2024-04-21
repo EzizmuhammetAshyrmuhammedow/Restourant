@@ -41,3 +41,28 @@ button{
 .gallery h2:after{
     --direction:right;
 }
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-gap:20px;
+}
+.gallery img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.menu ul{
+  display: grid;
+  padding-right: -10px;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  list-style: none;
+  padding: 0;
+  /* margin: TB LR  */
+  /* margin: 10px 0; */
+  grid-gap: 10px;
+  
+}
+.features{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-gap:20px;
+}
